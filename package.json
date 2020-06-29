@@ -1,0 +1,36 @@
+{
+  "name": "projecttech",
+  "version": "1.0.0",
+  "description": "This is a project for Block: Tech. CMD HVA 2019/2020. Made by Sergio Eijben.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "deploy": "gh-pages -d project"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HappyPantss/projectTech.git"
+  },
+  "author": "Sergio Eijben",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HappyPantss/projectTech/issues"
+  },
+  "homepage": "https://github.com/HappyPantss/projectTech#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "camelcase": "^5.3.1",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "lodash": "^4.17.15",
+    "mongodb": "^3.5.5",
+    "multer": "^1.4.2",
+    "slug": "^2.1.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0",
+    "nodemon": "^2.0.2"
+  }
+}
